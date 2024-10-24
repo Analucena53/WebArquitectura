@@ -56,6 +56,8 @@ Puedes personalizar fácilmente esta plantilla cambiando los estilos en el archi
 Colores: Los colores principales, como el amarillo (#eada19) y el negro, pueden ser cambiados para adaptarse a la paleta de tu marca.
 Tipografía: Actualmente se utiliza la fuente "Montserrat", importada desde Google Fonts. Puedes cambiarla en el bloque @import dentro del archivo CSS.
 
++Propiedad y Derechos de Autor
+Este proyecto es una creación original y personal. No está permitida su copia, distribución o uso sin mi autorización expresa. Cualquier uso no autorizado del contenido o diseño de este proyecto se considerará una violación de los derechos de autor.
 
 +Créditos
 
