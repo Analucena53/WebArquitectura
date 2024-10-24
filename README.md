@@ -28,7 +28,7 @@ Footer: Estilos de los enlaces a redes sociales y la información de contacto.
 
 +Instalación
 1. Clona el repositorio:
-   git clone https://github.com/tu_usuario/cubo-estudio-arquitectura.git
+   git clone https://github.com/Analucena53/WebArquitectura.git
    
 2. Abre el archivo index.html en tu navegador para ver el sitio web.
    
