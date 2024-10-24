@@ -40,19 +40,25 @@ Bootstrap 5.1.3: Utilizado para facilitar el diseño responsivo.
 Cubo Estudio Arquitectura - Página Web
 Este repositorio contiene el código HTML y CSS para la página web de Cubo Estudio Arquitectura, un estudio de arquitectura especializado en ecodiseño y sostenibilidad. El proyecto incluye una estructura adaptable (responsive) con secciones como el inicio, proyectos, valores, equipo, y un footer con información de contacto y redes sociales.
 
+
 +Uso
+
 Este proyecto es una plantilla de página web que puede ser personalizada para un estudio de arquitectura o cualquier otro propósito similar. Los siguientes aspectos pueden ser modificados:
 
 Imágenes: Las imágenes en la carpeta img se pueden reemplazar por las correspondientes a otros proyectos o miembros del equipo.
 Textos: Edita los textos en el archivo index.html para reflejar el contenido de tu propio estudio.
 
+
 +Personalización
+
 Puedes personalizar fácilmente esta plantilla cambiando los estilos en el archivo style.css. Algunas áreas clave a modificar son:
 
 Colores: Los colores principales, como el amarillo (#eada19) y el negro, pueden ser cambiados para adaptarse a la paleta de tu marca.
 Tipografía: Actualmente se utiliza la fuente "Montserrat", importada desde Google Fonts. Puedes cambiarla en el bloque @import dentro del archivo CSS.
 
+
 +Créditos
+
 Esta página web fue diseñada para Cubo Estudio Arquitectura (empresa ficticia). Si tienes alguna pregunta o sugerencia, por favor contacta a través de lucenapuertasana53@gmail.com.
 ¡Gracias por visitar mi repositorio!
 
