@@ -1,0 +1,505 @@
+/* reset */
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img,
+figure {
+    max-width: 100%;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0
+}
+
+body {
+    color: var(--bs-body-color) none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* mi tema */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*CABECERA*/
+.cabecera {
+    background-color: #eada19;
+
+
+}
+
+.cabecera__contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    background-color: #eada19;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.cabecera__burguer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 10px 14px 10px;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.cabecera__burguer>div {
+    height: 3px;
+    background-color: black;
+}
+
+.cabecera__nav {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 80px;
+    background-color: #e5e5e5;
+    height: calc(100vh - 80px);
+
+}
+
+#check:checked+.cabecera__burguer>div {
+    background-color: gray;
+
+}
+
+#check:checked~.cabecera__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera__item {
+    text-align: center;
+    padding: 15px;
+}
+
+.cabecera__menu {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecera__link {
+    font-size: 18px;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.cabecera__link:hover {
+    color: grey;
+}
+
+
+/*MAIN*/
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 900;
+    padding: 30px;
+    line-height: 36px;
+
+}
+
+.subprincipal {
+    padding: 0 33px;
+}
+
+
+.pildora {
+    width: 165px;
+    text-align: center;
+    background-color: black;
+    color: #eada19;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40px;
+    padding: 8px;
+    display: block;
+    margin: auto;
+    margin-bottom: 50px;
+
+}
+
+.pildora:hover {
+    color: gray;
+}
+
+/*Valores*/
+
+.valores {
+    background-color: #e5e5e5;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.icono-hoja {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.icono-smile {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 15px;
+
+
+}
+
+.icono-corazon {
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.titulos__valores {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+
+.subprincipal,
+.textos__valores {
+    font-size: 18px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+    line-height: 26px;
+
+}
+
+
+/*Proyectos*/
+
+.proyectos {
+    background-color: black;
+
+}
+
+.titulo__seccion {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #eada19;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+.card__proyecto {
+
+    height: 291px;
+    width: 230px;
+    background-color: #eada19;
+    border: 8px solid #eada19;
+    margin: auto;
+    margin-bottom: 30px;
+    border-radius: 0;
+}
+
+.card__proyecto img {
+    filter: saturate(0);
+}
+
+.card__proyecto img:hover {
+    filter: none
+}
+
+.polaroid {
+    height: 230px;
+    padding-bottom: 16px;
+
+}
+
+.titulos__proyectos {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+
+}
+
+.titulos__proyectos:hover {
+    color: gray;
+}
+
+
+/*Nuestro equipo*/
+
+.equipo {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.titulo__equipo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: black;
+}
+
+.foto__equipo {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin: auto;
+    border: 8px solid #eada19;
+}
+
+.nombre__equipo {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+figure {
+    padding: 0;
+}
+
+.descripcion__trabajadores {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.menu__item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.menu__item a {
+    color: black;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 100%;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 42px;
+}
+
+
+.menu__item a:hover {
+    background-color: #eada19;
+}
+
+.texto__footer {
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+@media (min-width:768px) {
+
+    .valores,
+    .proyectos,
+    .equipo,
+    .footer {
+
+        padding-bottom: 50px;
+    }
+
+    .valores,
+    .proyectos,
+    .equipo,
+    .footer {
+        padding-top: 50px;
+    }
+
+    .home {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 34px;
+    }
+
+    .subprincipal,
+    .textos__valores {
+        font-size: 22px;
+
+    }
+
+    .descripcion__trabajadores {
+        padding: 0 19px;
+    }
+
+    .textos__valores {
+        padding: 0 15px;
+    }
+
+    .titulos__proyectos {
+        font-size: 20px;
+    }
+}
+
+@media (min-width:1200px) {
+
+    .cabecera {
+        height: 150px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .cabecera__burguer {
+        display: none;
+    }
+
+    .cabecera__menu {
+        display: flex;
+
+
+
+    }
+
+    .cabecera__nav {
+        position: static;
+        background-color: transparent;
+        height: 150px;
+        justify-content: flex-end;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 87px;
+    }
+
+    .cabecera__contenido {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15px;
+        background-color: #eada19;
+    }
+
+
+    .cabecera__link:hover {
+        color: gray;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 27px;
+        font-weight: 900;
+        padding: 30px 193px;
+        line-height: 36px;
+
+    }
+
+    .subprincipal {
+        padding: : 0 122px;
+    }
+
+    .valores,
+    .proyectos,
+    .equipo,
+    .footer {
+
+        padding-bottom: 100px;
+    }
+
+    .textos__valores {
+        padding: 0 140px;
+    }
+
+    .valores,
+    .proyectos,
+    .equipo,
+    .footer {
+        padding-top: 100px;
+    }
+
+    .logo {
+
+        width: 150px;
+        height: 100px;
+        margin-left: 87px;
+        margin-top: 0;
+
+    }
+
+    .descripcion__trabajadores {
+        padding: 0 30px;
+    }
+}
